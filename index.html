@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- IE compatibility meta -->
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- first mobile meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Germanboy Inc.</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/pages.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+	<link rel="stylesheet" href="css/animate.min.css">
+
+ 	<!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!-- Start Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ournavbar" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Germanboy<span> Inc.</span></a>
+	    </div>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="ournavbar">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+	        <li><a href="about.html">About</a></li>
+	        <li><a href="FAQ.html">FAQ</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Programming</a></li>
+	            <li><a href="#">Web Design</a></li>
+	            <li><a href="#">Desktop</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Web Hosting</a></li>
+	            </ul>
+	        </li>
+	        <li><a href="#">Map</a></li>
+	        <li><a href="#">Contact</a></li>
+	      </ul>
+  		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<!-- End Navbar -->
+	<!-- Start Carousel -->
+	<div id="myslide" class="carousel slide hidden-xs" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#myslide" data-slide-to="0" class="active"></li>
+	    <li data-target="#myslide" data-slide-to="1"></li>
+	    <li data-target="#myslide" data-slide-to="2"></li>
+	    <li data-target="#myslide" data-slide-to="3"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active">
+	      <img src="images/6.jpg" alt="...">
+	      <div class="carousel-caption">
+	        <h1>Programming</h1>
+	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	        </p>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="images/7.jpg" alt="...">
+	      <div class="carousel-caption">
+	        <h1>Web Design</h1>
+	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	        </p>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="images/8.jpeg" alt="...">
+	      <div class="carousel-caption">
+	        <h1>Desktop</h1>
+	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	        </p>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="images/9.jpg" alt="...">
+	      <div class="carousel-caption">
+	        <h1>Web Hosting</h1>
+	        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	        </p>
+	      </div>
+	    </div>
+	    ...
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	<!-- End Carousel -->
+	<!-- Start Section About -->
+	<section class="about text-center wow bounceIn" data-wow-duration="2s" data-wow-offset="300">
+		<div class="container">
+			<h1>Meet Our New Template<span> Germanboy Inc.</span></h1>
+			<p class="lead">Hello Let Me Introduce Our Template Germanboy Inc. Created With All Love With <strong>Bootstrap</strong> 3.3.7 </p>
+		</div>
+	</section>
+	<!-- End Section About -->
+	<!-- start section features -->
+	<section class="features text-center">
+		<div class="container">
+			<h1>Our Features</h1>
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="feat wow bounceInLeft" data-wow-duration="2s" data-wow-offset="100">
+						<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+						<h3>100% Responsive</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="feat wow bounceInUp" data-wow-duration="2s" data-wow-offset="100">
+						<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+						<h3>Retina Ready</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="feat wow bounceInDown" data-wow-duration="2s" data-wow-offset="100">
+						<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+						<h3>Awesome Display</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="feat wow bounceInRight" data-wow-duration="2s" data-wow-offset="100">
+						<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+						<h3>Well Document</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end section features -->
+	<!-- Start Section Testimonials -->
+	<section class="testimonials text-center wow flipInY" data-wow-duration="1s" data-wow-offset="300">
+		<div class="container">
+			<h1>What Our Client Say ?</h1>
+			<!-- Start Carousel -->
+			<div id="carousel_testimonials" class="carousel slide" data-ride="carousel">
+			  
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			    	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			        </p>
+			        <span>Ahmed Yousef</span>
+			    </div>
+			    <div class="item">
+			      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			        </p>
+			        <span>Zahra Mohsen</span>
+		        </div>
+			    <div class="item">
+			      	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			        </p>
+			        <span>Mahmoud Ali</span>
+			    </div>
+			    <div class="item">
+			      	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		        	</p>
+		        	<span>Sara Hassan</span>
+			    </div>
+			  </div>
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel_testimonials" data-slide-to="0" class="active">
+			    	<img src="images/person1.jpg">
+			    </li>
+			    <li data-target="#carousel_testimonials" data-slide-to="1">
+			    	<img src="images/person2.jpg">
+			    </li>
+			    <li data-target="#carousel_testimonials" data-slide-to="2">
+			    	<img src="images/person3.jpg">
+			    </li>
+			    <li data-target="#carousel_testimonials" data-slide-to="3">
+			    	<img src="images/person4.jpg">
+			    </li>
+			  </ol>
+
+			</div>
+			<!-- End Carousel -->
+		</div>
+	</section>
+	<!-- End Section Testimonials -->
+	<!-- Start Section Price Table -->
+	<section class="price-table text-center">
+		<div class="container">
+			<h1>Our Amazing Prices</h1>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="price-box wow fadeInUp" data-wow-duration="2s" data-wow-offset="400">
+						<h2 class="text-primary">Hosting</h2>
+						<p class="center-block">40$</p>
+						<ul class="list-unstyled">
+							<li>Space: 30 GB</li>
+							<li>Emails: 20</li>
+							<li>IPs: 2</li>
+							<li>DataBases: 10</li>
+							<li>Ftp Accounts: 5</li>
+						</ul>
+						<a href="#" class="btn btn-primary">Order Now</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="price-box wow fadeInDown" data-wow-duration="2s" data-wow-offset="400">
+						<h2 class="text-success">Vps</h2>
+						<p class="center-block">50$</p>
+						<ul class="list-unstyled">
+							<li>Space: 50 GB</li>
+							<li>Emails: 30</li>
+							<li>IPs: 4</li>
+							<li>DataBases: 20</li>
+							<li>Ftp Accounts: 10</li>
+						</ul>
+						<a href="#" class="btn btn-success">Order Now</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="price-box wow fadeInUp" data-wow-duration="2s" data-wow-offset="400">
+						<h2 class="text-info">Dedicated</h2>
+						<p class="center-block">70$</p>
+						<ul class="list-unstyled">
+							<li>Space: 80 GB</li>
+							<li>Emails: 30</li>
+							<li>IPs: 8</li>
+							<li>Ftp Accounts: 6</li>
+							<li>DataBases: 30</li>
+						</ul>
+						<a href="#" class="btn btn-info">Order Now</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="price-box wow fadeInDown" data-wow-duration="2s" data-wow-offset="400">
+						<h2 class="text-danger">Cloud</h2>
+						<p class="center-block">90$</p>
+						<ul class="list-unstyled">
+							<li>Space: 90 GB</li>
+							<li>Emails: 50</li>
+							<li>IPs: 10</li>
+							<li>DataBases: 50</li>
+							<li>Ftp Accounts: 10</li>
+						</ul>
+						<a href="#" class="btn btn-danger">Order Now</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Section Price Table -->
+	<!-- Start Section Our Team -->
+	<section class="our-team text-center">
+		<div class="team">
+			<div class="container">
+				<h1>Meet Our Awesome Team</h1>
+				<div class="row">
+					<div class="col-lg-3 col-sm-6">
+						<div class="person wow pulse" data-wow-duration="2s" data-wow-offset="200">
+							<img class="img-circle" src="images/01.jpg">
+							<h3>Chris Coyier</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							</p>
+							<i class="fab fa-facebook-f"></i>
+							<i class="fab fa-google-plus-g"></i>
+							<i class="fab fa-twitter"></i>
+							<i class="fab fa-youtube"></i>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="person wow pulse" data-wow-duration="2s" data-wow-offset="200">
+							<img class="img-circle" src="images/02.jpg">
+							<h3>Leah Culvor</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							</p>
+							<i class="fab fa-facebook-f"></i>
+							<i class="fab fa-google-plus-g"></i>
+							<i class="fab fa-twitter"></i>
+							<i class="fab fa-youtube"></i>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="person wow pulse" data-wow-duration="2s" data-wow-offset="200">
+							<img class="img-circle" src="images/03.jpg">
+							<h3>John Michael</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							</p>
+							<i class="fab fa-facebook-f"></i>
+							<i class="fab fa-google-plus-g"></i>
+							<i class="fab fa-twitter"></i>
+							<i class="fab fa-youtube"></i>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="person wow pulse" data-wow-duration="2s" data-wow-offset="200">
+							<img class="img-circle" src="images/04.jpg">
+							<h3>Mariasa Mayer</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							</p>
+							<i class="fab fa-facebook-f"></i>
+							<i class="fab fa-google-plus-g"></i>
+							<i class="fab fa-twitter"></i>
+							<i class="fab fa-youtube"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Section Our Team -->
+	<!-- Start section subscribe -->
+	<section class="subscribe text-center">
+		<div class="container wow fadeInUp" data-wow-duration="2s" data-wow-offset="200">
+			<h1>Keep In Touch</h1>
+			<p class="lead">Sign Up For Newsletter Do not Worry About Spam We Hate It Too </p>
+			<form class="form-inline">
+				<input class="form-control input-lg" type="text" name="text" placeholder="Write Your Email">
+				<button class="btn btn-danger btn-lg"><i class="far fa-edit fa-lg"></i> Subscribe</button>
+			</form>
+		</div>
+	</section>
+	<!-- End section subscribe -->
+	<!-- Start section Statistics -->
+	<section class="statistics text-center">
+		<div class="data">
+			<div class="container">
+				<h1>Our Main Statistics</h1>
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<div class="stats">
+							<i class="fas fa-users fa-5x"></i>
+							<p>9,950</p>
+							<span>Statisfied Users</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="stats">
+							<i class="fas fa-comments fa-5x"></i>
+							<p>25,600</p>
+							<span>Posted Commeents</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="stats">
+							<i class="fas fa-suitcase fa-5x"></i>
+							<p>3,260</p>
+							<span>Projects Done</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="stats">
+							<i class="fas fa-life-ring fa-5x"></i>
+							<p>95,350</p>
+							<span>Tickets Archieved</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End section Statistics -->
+	<!-- Start Section Our Skills -->
+	<section class="our-skills">
+		<div class="container">
+			<h1 class="text-center">Our Skills</h1>
+			<div class="row">
+				<!-- Start progress skills -->
+				<div class="col-md-5">
+					<div class="skills-progress">
+						<div class="progress">
+							<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" area-valuenow="80" araa-valuemi="0" area-valuemax="100" style="width: 80%">Html5/Css3</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" area-valuenow="75" araa-valuemi="0" area-valuemax="100" style="width: 75%">Php/MysQl</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" area-valuenow="90" araa-valuemi="0" area-valuemax="100" style="width: 90%">Javascript/jQuery</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" area-valuenow="70" araa-valuemi="0" area-valuemax="100" style="width: 70%">Wordpress</div>
+						</div>
+					</div>
+				</div>
+				<!-- End progress skills -->
+				<!-- Start info-->
+				<div class="col-md-6 col-md-offset-1">
+					<div class="skills-info">
+						<h3>About Our Team</h3>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+						<button type="button" class="btn btn-primary">Talk With Professional</button>
+					</div>
+				</div>
+				<!-- End info -->
+			</div>
+		</div>
+	</section>	
+	<!-- End Section Our Skills -->
+	<!-- Start Section Contact Us -->
+	<section class="contact-us text-center">
+		<div class="fields">
+			<div class="container">
+				<div class="row">
+					<i class="fas fa-headphones fa-5x"></i>
+					<h1>Tell Us What You Feal</h1>	
+					<p class="lead">Feal Free To Contact Us Anytime</p>
+					<form role="form">
+						<div class="col-md-6 wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
+							<div class="form-group">
+								<input type="text" name="text" class="form-control input-lg" placeholder="UserName">
+							</div>
+							<div class="form-group">
+								<input type="text" name="text" class="form-control input-lg" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<input type="text" name="text" class="form-control input-lg" placeholder="Cell Phone">
+							</div>
+						</div>
+						<div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-offset="200">
+							<div class="form-group">
+								<textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+							</div>
+							<button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Section Contact Us -->
+	<!-- Start Section Our Clients -->
+	<section class="clients">
+		<div class="container">
+			<div class="row">
+				<ul class="list-unstyled">
+					<li class="col-md-2 col-xs-4">
+						<img class="img-responsive center-block wow bounceIn" src="images/11.png"  data-wow-duration="1s" data-wow-offset="200" data-wow-delay=".5s">
+					</li>
+					<li class="col-md-2 col-xs-4">
+						<img class="img-responsive center-block wow bounceIn" src="images/22.png" data-wow-duration="1s" data-wow-offset="200" data-wow-delay="1s">
+					</li>
+					<li class="col-md-2 col-xs-4">
+						<img class="img-responsive center-block wow bounceIn" src="images/33.jpg" data-wow-duration="1s" data-wow-offset="200" data-wow-delay="1.5s">
+					</li>
+					<li class="col-md-2 col-xs-4">
+						<img class="img-responsive center-block wow bounceIn" src="images/44.png" data-wow-duration="1s" data-wow-offset="200" data-wow-delay="2s">
+					</li>
+					<li class="col-md-2 col-xs-4">
+						<img class="img-responsive center-block wow bounceIn" src="images/55.png" data-wow-duration="1s" data-wow-offset="200" data-wow-delay="2.5s">
+					</li>
+					<li class="col-md-2 col-xs-4">
+						<img class="img-responsive center-block wow bounceIn" src="images/66.png" data-wow-duration="1s" data-wow-offset="200" data-wow-delay="3s">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- End Section Our Clients -->
+	<!-- Start Footer Section -->
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<h3>Site map</h3>
+					<ul class="list-unstyled three-columns">
+						<li>Home</li>
+						<li>About</li>
+						<li>Company</li>
+						<li>Code</li>
+						<li>Design</li>
+						<li>Host</li>
+						<li>Solutions</li>
+						<li>Sitemap</li>
+						<li>Contact</li>
+					</ul>	
+					<ul class="list-unstyled social-list">
+						<li><img src="images/facebook.png"></li>
+						<li><img src="images/twitter.png"></li>
+						<li><img src="images/rss.png"></li>
+						<li><img src="images/paint.png"></li>
+						<li><img src="images/google.png"></li>
+						<li><img src="images/email.png"></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<h3>Latest Articles</h3>
+					<div class="media">
+						<a class="pull-left" href="#">
+							<img src="images/footer/1.jpg">
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">
+								Programming
+							</h4>
+							This is some text about programming in bootstrap 3 describe the media
+						</div>
+					</div>
+					<div class="media">
+						<a class="pull-left" href="#">
+							<img src="images/footer/2.jpg">
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">
+								Coding
+							</h4>
+							This is some text about programming in bootstrap 3 describe the media
+						</div>
+					</div>
+					<div class="media">
+						<a class="pull-left" href="#">
+							<img src="images/footer/3.jpg">
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">
+								Web Design
+							</h4>
+							This is some text about programming in bootstrap 3 describe the media
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<h3>Our Awesome Work</h3>
+					<img class="img-thumbnail" src="images/footer/4.png">
+					<img class="img-thumbnail" src="images/footer/5.png">
+					<img class="img-thumbnail" src="images/footer/6.jpg">
+					<img class="img-thumbnail" src="images/footer/7.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="copyright text-center">Designed By :<span> Yousri Kamal</span></div>
+	</section>
+	<!-- End Footer Section -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/fontawesome-all.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript"> new WOW().init();</script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+</body>
+</html>
